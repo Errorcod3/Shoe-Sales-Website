@@ -1,0 +1,104 @@
+/* formatting */
+header, footer{
+  clear: both;
+  width: 100%;
+  text-align: center;
+  font-family: 'Germania One', cursive;
+  font-size: 23px;
+}
+footer{
+  background-color: #2E294E;
+  color: #D6FFF6;
+}
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+.headerLink{
+  float: left;
+  width: calc(100% / 3);
+  background-color: #2E294E;
+  color: #D6FFF6;
+  text-decoration: none;
+  height: 25px;
+}
+.headerLink:hover {
+  background-color: #7F7CAF;
+}
+.activePage, .activePage:hover{
+  background-color: #2374AB;
+}
+.margin{
+  margin: 5px;
+  border: 2px solid #2E294E;
+}
+
+/*Flex'n */
+.flex{
+  display: flex;
+}
+.flexRow{
+  flex-direction: row;
+}
+.flexColumn{
+  flex-direction: column;
+}
+.height{
+  height: 100%;
+}
+.flexGrow{
+  flex-grow: 1;
+}
+.flexNoShrink{
+  flex-shrink: 0;
+}
+.flexWrap{
+  flex-flow: wrap;
+}
+
+/*Main Page*/
+.mainContainer{
+  width: 100%;
+  height: calc(100vh - 65px);
+  background-color: #CF9893;
+}
+.flexMain{
+  width: 70%;
+}
+.mainDiv{
+  background-color: #2F9C95;
+  text-align: center;
+  width: 200px;
+}
+.altDiv{
+  background-color: #4FB477;
+  text-align: center;
+}
+.flexAlt{
+  width: 30%;
+}
+
+/*Sales Page*/
+.salesMenu{
+  height: 30%;
+}
+.salesLists{
+  background-color: #2F9C95;
+  width: 300px;
+}
+.radioLogo{
+  height: 50px;
+  float: left;
+}
+
+/*Contact Page*/
+.contactContainer{
+  width: 100%;
+  height: calc(100vh - 65px);
+  background-color: #CF9893;
+}
+.justifyContent{
+  justify-content: center;
+}
+.heightComment{
+  height: calc(100vh / 3);
+}

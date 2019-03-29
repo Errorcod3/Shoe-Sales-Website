@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./master.css">
+<link href="https://fonts.googleapis.com/css?family=Germania+One|Titillium+Web" rel="stylesheet">
+<meta charset="utf-8">
+    <title>mainPage</title>
+  </head>
+  <header>
+    <a href="./mainPage.html" class="headerLink">Main Page</a>
+    <a href="./salePage.html" class="headerLink">Sale Page</a>
+    <a href="./contactPage.html" class="activePage headerLink">Contact Us</a>
+  </header>
+  <body>
+    <div class="flex contactContainer justifyContent">
+      <form>
+          <div class="flexColumn flexGrow">
+            <label>First Name</label>
+              <input class="margin" type="text" name="firstName" id="firstName" placeholder="First Name">
+            <br><label>Last Name</label>
+              <input class="margin" type="text" name="lastName" id="lastName" placeholder="Last Name">
+          </div>
+          <div class="flexRow flexGrow">
+            <h4>What is your favorite programming language?</h4>
+              <input type="radio" name="language" id="radioOne" value="C">
+            <label for="radioOne">C, C++, or C#</label>
+              <input type="radio" name="language" id="radioTwo" value="VB">
+            <label for="radioTwo">Visual Basic</label>
+              <input type="radio" name="language" id="radioThree" value="JavaScript">
+            <label for="radioThree">JavaScript</label>
+              <input type="radio" name="language" id="radioFour" value="JAVA">
+            <label for="radioFour">JAVA</label>
+              <input type="radio" name="language" id="radioFive" value=".NET">
+            <label for="radioFive">.NET</label>
+          </div>
+          <div class="flex flexColumn heightComment">
+            <h2>Additional Comments</h2>
+              <textarea class="margin flexGrow"></textarea>
+          </div>
+          <div class="">
+            <label>E-mail Address</label><br>
+              <input type="email" class="margin">
+              <h2></h2>
+            <input type="submit" class="margin">
+            <input type="reset" class="margin">
+          </div>
+        </form>
+    </div>
+  </body>
+  <footer>This Is A Footer</footer>
+</html>
