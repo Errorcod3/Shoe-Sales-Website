@@ -31,7 +31,9 @@ body{
   margin: 5px;
   border: 2px solid #2E294E;
 }
-
+.companyLogo{
+  float: left;
+}
 /*Flex'n */
 .flex{
   display: flex;
@@ -49,7 +51,7 @@ body{
   flex-grow: 1;
 }
 .flexNoShrink{
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 .flexWrap{
   flex-flow: wrap;
@@ -88,6 +90,9 @@ body{
 .radioLogo{
   height: 50px;
   float: left;
+}
+.salesLink{
+  text-decoration: none;
 }
 
 /*Contact Page*/
