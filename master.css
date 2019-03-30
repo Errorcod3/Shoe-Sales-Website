@@ -51,7 +51,7 @@ body{
   flex-grow: 1;
 }
 .flexNoShrink{
-  flex-shrink: 1;
+  flex-shrink: 0;
 }
 .flexWrap{
   flex-flow: wrap;
@@ -82,10 +82,11 @@ body{
 /*Sales Page*/
 .salesMenu{
   height: 30%;
+  width: 150px;
 }
 .salesLists{
   background-color: #2F9C95;
-  width: 300px;
+  width: 200px;
 }
 .radioLogo{
   height: 50px;
